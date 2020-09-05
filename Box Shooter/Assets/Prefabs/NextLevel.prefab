@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5292525759114542024}
   - component: {fileID: 5292525759114542025}
   - component: {fileID: 5292525759114542026}
-  - component: {fileID: 5292525759114542027}
+  - component: {fileID: -7888146068705891068}
   m_Layer: 0
   m_Name: NextLevel
   m_TagString: Untagged
@@ -83,10 +83,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5292525759114542028}
-  m_Text: 'NEXT LEVEL
-
-
-'
+  m_Text: NEXT LEVEL
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -113,7 +110,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8, y: 1.4523438, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &5292525759114542027
+--- !u!114 &-7888146068705891068
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -122,6 +119,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 5292525759114542028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41fdf030b924442b8817af5cd952da25, type: 3}
+  m_Script: {fileID: 11500000, guid: 299392db32fda4efa81c835808d46eb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

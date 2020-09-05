@@ -1501,6 +1501,8 @@ MonoBehaviour:
   gameIsOver: 0
   playAgainButtons: {fileID: 1717525}
   playAgainLevelToLoad: Level1
+  restartButtons: {fileID: 0}
+  restartLevelToLoad: 
   nextLevelButtons: {fileID: 891234624}
   nextLevelToLoad: Level2
 --- !u!1 &1050772216
@@ -1573,7 +1575,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5292525759114542023, guid: dffd9e7791497c546941358651cbbda5, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5292525759114542023, guid: dffd9e7791497c546941358651cbbda5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2148,7 +2150,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5292525759114542023, guid: dffd9e7791497c546941358651cbbda5, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5292525759114542023, guid: dffd9e7791497c546941358651cbbda5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
