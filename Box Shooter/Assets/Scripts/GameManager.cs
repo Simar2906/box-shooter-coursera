@@ -28,6 +28,8 @@ public class GameManager : MonoBehaviour {
 	public GameObject playAgainButtons;
 	public string playAgainLevelToLoad;
 
+	public GameObject restartButtons;
+	public string restartLevelToLoad;
 	public GameObject nextLevelButtons;
 	public string nextLevelToLoad;
 
@@ -87,6 +89,8 @@ public class GameManager : MonoBehaviour {
 		// activate the playAgainButtons gameObject, if it is set 
 		if (playAgainButtons)
 			playAgainButtons.SetActive (true);
+		if (restartButtons)
+			restartButtons.SetActive (true);
 
 		// reduce the pitch of the background music, if it is set 
 		if (musicAudioSource)
@@ -137,6 +141,13 @@ public class GameManager : MonoBehaviour {
 		// we are just loading a scene (or reloading this scene)
 		// which is an easy way to restart the level
         SceneManager.LoadScene(playAgainLevelToLoad);
+	}
+
+	public void RestartGameTo1 ()
+	{
+		// we are just loading a scene (or reloading this scene)
+		// which is an easy way to restart the level
+        SceneManager.LoadScene(restartLevelToLoad);
 	}
 
 	// public function that can be called to go to the next level of the game
